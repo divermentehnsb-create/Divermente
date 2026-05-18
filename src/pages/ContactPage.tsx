@@ -27,8 +27,8 @@ function ContactPage() {
               <span>🕒 Lunes a viernes 9:00 - 19:00</span>
             </div>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <span>📞 +52 800 123 4567</span>
-              <span>✉️ contacto@divermente.mx</span>
+              <span>📞 +504 3145-7819</span>
+              <span>✉️ <a href="mailto:divermentehnsb@gmail.com" className="text-deepblue underline">divermentehnsb@gmail.com</a></span>
             </div>
           </div>
           <div className="overflow-hidden rounded-[30px] border border-slate-200 bg-white shadow-soft">

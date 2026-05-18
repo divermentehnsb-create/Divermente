@@ -18,12 +18,11 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10">
         <Link to="/" className="flex items-center gap-3 font-semibold text-deepblue">
-          <span className="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-gradient-to-br from-tealbright to-purplegentle text-white shadow-glow">
-            D
-          </span>
-          <div className="hidden sm:block">
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-500">DiverMente</p>
-            <p className="text-sm text-slate-600">Centro Familiar y Desarrollo Infantil</p>
+          <div className="inline-flex min-h-[56px] items-center justify-center rounded-3xl bg-gradient-to-br from-tealbright to-purplegentle px-4 py-3 text-white shadow-glow">
+            <div className="text-left">
+              <p className="text-base font-bold">Diver<span className="text-tealbright">Mente</span></p>
+              <p className="text-xs uppercase tracking-[0.3em] text-white/80">Centro Familiar y Desarrollo Infantil</p>
+            </div>
           </div>
         </Link>
 
@@ -43,10 +42,10 @@ function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <a href="mailto:contacto@divermente.mx" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-skysoft/70 px-4 py-2 text-sm text-deepblue transition hover:bg-skysoft">
-            <FiMail /> contacto@divermente.mx
+          <a href="mailto:divermentehnsb@gmail.com" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-skysoft/70 px-4 py-2 text-sm text-deepblue transition hover:bg-skysoft">
+            <FiMail /> divermentehnsb@gmail.com
           </a>
-          <a href="tel:+528001234567" className="inline-flex items-center gap-2 rounded-full bg-deepblue px-4 py-2 text-sm text-white shadow-soft hover:bg-purplegentle">
+          <a href="tel:+50431457819" className="inline-flex items-center gap-2 rounded-full bg-deepblue px-4 py-2 text-sm text-white shadow-soft hover:bg-purplegentle">
             <FiPhone /> Agendar
           </a>
         </div>
@@ -71,10 +70,10 @@ function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <a href="mailto:contacto@divermente.mx" className="inline-flex items-center gap-2 rounded-3xl bg-skysoft/80 px-4 py-3 text-base font-medium text-deepblue">
+            <a href="mailto:divermentehnsb@gmail.com" className="inline-flex items-center gap-2 rounded-3xl bg-skysoft/80 px-4 py-3 text-base font-medium text-deepblue">
               <FiMail /> correo
             </a>
-            <a href="tel:+528001234567" className="inline-flex items-center gap-2 rounded-3xl bg-deepblue px-4 py-3 text-base font-medium text-white">
+            <a href="tel:+50431457819" className="inline-flex items-center gap-2 rounded-3xl bg-deepblue px-4 py-3 text-base font-medium text-white">
               <FiPhone /> teléfono
             </a>
           </div>

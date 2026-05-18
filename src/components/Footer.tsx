@@ -6,8 +6,11 @@ function Footer() {
     <footer className="border-t border-slate-200 bg-white/95 py-12">
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-6 sm:px-8 lg:px-10 lg:flex-row lg:items-center lg:justify-between">
         <div className="space-y-4">
-          <div className="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-gradient-to-br from-tealbright to-purplegentle text-white shadow-glow">
-            D
+          <div className="inline-flex min-h-[56px] items-center justify-center rounded-3xl bg-gradient-to-br from-tealbright to-purplegentle px-4 py-3 text-white shadow-glow">
+            <div className="text-left">
+              <p className="text-base font-bold">Diver<span className="text-slate-100">Mente</span></p>
+              <p className="text-xs uppercase tracking-[0.3em] text-white/80">Centro Familiar y Desarrollo Infantil</p>
+            </div>
           </div>
           <p className="max-w-xl text-slate-600">
             DiverMente acompaña procesos terapéuticos con calidez profesional, construyendo espacios de confianza para familias y personas.
@@ -16,7 +19,7 @@ function Footer() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Contacto</p>
-            <p className="mt-3 text-slate-700">contacto@divermente.mx</p>
+            <p className="mt-3 text-slate-700">divermentehnsb@gmail.com</p>
             <p className="text-slate-700">+504 3145-7819</p>
           </div>
           <div>
