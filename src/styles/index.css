@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: 'Poppins', 'Inter', 'Nunito', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+::selection {
+  @apply bg-tealbright text-deepblue;
+}
+
+button,
+a {
+  transition: all 0.25s ease;
+}
+
+.hero-background {
+  background-image: radial-gradient(circle at 15% 10%, rgba(27, 187, 207, 0.18), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(247, 108, 140, 0.12), transparent 26%),
+    linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(223, 246, 255, 0.72));
+}
+
+.card-ambient {
+  box-shadow: 0 28px 70px rgba(11, 31, 91, 0.09);
+}
