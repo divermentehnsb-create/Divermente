@@ -8,7 +8,7 @@ const basename = window.location.pathname.startsWith('/Divermente') ? '/Divermen
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
