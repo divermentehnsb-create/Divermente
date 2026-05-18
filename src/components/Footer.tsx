@@ -1,4 +1,4 @@
-import { FiInstagram, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
+import { FiFacebook, FiInstagram, FiMail, FiPhone } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -17,16 +17,16 @@ function Footer() {
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Contacto</p>
             <p className="mt-3 text-slate-700">contacto@divermente.mx</p>
-            <p className="text-slate-700">+52 800 123 4567</p>
+            <p className="text-slate-700">+504 3145-7819</p>
           </div>
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Síguenos</p>
             <div className="mt-3 flex items-center gap-4 text-deepblue">
-              <a href="https://www.instagram.com" aria-label="Instagram">
+              <a href="https://www.instagram.com/divermente_sb?igsh=MThubG94OW55OG50OQ==" aria-label="Instagram">
                 <FiInstagram size={20} />
               </a>
-              <a href="https://www.linkedin.com" aria-label="LinkedIn">
-                <FiLinkedin size={20} />
+              <a href="https://www.facebook.com/share/1ES8kw5hTb/" aria-label="Facebook">
+                <FiFacebook size={20} />
               </a>
             </div>
           </div>
